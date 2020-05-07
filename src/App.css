@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+#banner{
+
+
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+     background: linear-gradient(to bottom #71717);
+     background: linear-gradient(217deg, rgba(54,59,56,.8), rgba(54,59,56,0.4) 70.71%),
+
+            linear-gradient(336deg, rgba(113,113,113,.5), rgba(113,113,113,0.3) 70.71%);
+}
+
+
+.html2canvas-container { width: 3000px !important; height: 3000px !important; }
+
+
+
+.dropdown_language_selection{
+  height:35px;
+
+  font-size: 1.1em;
+}
+
+#search_input{
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.header-fixed {
+    width: 100%
+}
+
+.header-fixed > thead,
+.header-fixed > tbody,
+.header-fixed > thead > tr,
+.header-fixed > tbody > tr,
+.header-fixed > thead > tr > th,
+.header-fixed > tbody > tr > td {
+    display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: auto;
+    height: 150px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+    width: 20%;
+    float: left;
+}
+
+#categories{
+
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+body {
+    font-family: 'Roboto';
+    overflow-y: "hidden";
+}
+.App-link {
+  color: #61dafb;
+}
+.aside-section {
+  margin: 0;
+  float: left;
+  width: 280px;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.navbar-sidenav {
+  position: relative;
+  flex-direction: column;
+  width: 170px;
+  background-color: #f1f1f1;
+}
+
+.nav-link-p {
+  padding: 0;
+  margin: 28px 0 28px 10px;
+}
+
+@media screen and (max-width: 767.98px) {
+  /* Some code needs to be here */
+  ul.nav li a span {
+    display: none;
+  }
+  .navbar-sidenav {
+    display: inline-block;
+    width: auto;
+  }
+  ul.nav li a i {
+    margin-left: 10px;
+    margin-right: 16px !important;
+  }
+}
+.active_button{
+  background:#355e3b;
+  color:white;
+  width:80%;
+  border-top-right-radius: 1.3em;
+  border-bottom-right-radius: 1.3em;
+  padding:1vh
+}
+.in_active_button{
+  background:#6C757D;
+  color:white;
+  width:80%;
+  border-top-right-radius: 1.3em;
+  border-bottom-right-radius: 1.3em;
+  padding:1vh
+}
+.caret{ color: black; }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainform{
+
+  margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
